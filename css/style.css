@@ -1,0 +1,124 @@
+/* 
+top header - #26292e
+bottom header- #e7718b
+main - #f4f4f6
+main border bottom - #f9e2e8
+top footer - #ffffff
+bottom footer - #26292e
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Butterfly+Kids&family=Ibarra+Real+Nova&family=Oswald&display=swap" rel="stylesheet">
+
+font-family: 'Butterfly Kids', cursive;
+font-family: 'Ibarra Real Nova', serif;
+font-family: 'Oswald', sans-serif;
+
+
+
+*/
+
+:root {
+    --topHeader: #26292e;
+    --bottomHeader: #e7718b;
+    --main: #f4f4f6;
+    --mainBorder: #f9e2e8;
+    --topFooter: #ffffff;
+    --bottomFooter: #26292e;
+    --font: 'Butterfly Kids', cursive;
+    --mainFont: 'Mukta', sans-serif;
+    /* --grad: radial-gradient(circle at top, #ec8da1, #e7718b);  */
+}
+
+*{
+    box-sizing: border-box;
+}
+
+header {
+    padding-top: 10px;
+    background-color: var(--topHeader);
+    height: 65px;
+}
+
+.header-link {
+    color: lightgray;
+    font-family: var(--font);
+}
+
+.nav-item {
+    padding: 7px;
+}
+
+.section1 {
+    background-color: #e7718b;
+    /* border: 2px solid red; */
+    padding-top: 70px;
+}
+
+.welcome-text {
+    padding-top: 15px;
+    width: 65%;
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+
+.btn {
+    background-color: #333;
+    margin-top: 30px;
+    border-top: 1px solid lightgray;
+    border-radius: 6px;
+    color: #f4f4f6;
+    font-family: sans-serif;
+    font-size: 15px;
+    height: 37px;
+} 
+
+
+
+
+.section2 {
+    background-color: #f4f4f6;
+    border-bottom: 4px solid var(--mainBorder);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.section2 .content-text {
+    /* border: 2px solid red; */
+    font-size: 14px;
+}
+
+.section2 .content {
+    /* border: 2px solid blue; */
+    padding-top: 20px;
+}
+
+.content-header4 {
+    /* border: 2px solid red; */
+    width: 35%;
+    margin-top: 20px;
+}
+
+.last-content-box {
+    /* border: 2px solid blue; */
+    position: relative;
+    bottom: 50px;
+}
+
+.content-header5 {
+    position: relative;
+    bottom: 35px;
+}
+
+.footer {
+    background-color: var(--bottomFooter);
+    color: #fff;
+    padding: 20px 0 35px;
+}
+
+.footer-nav-item {
+    padding: 7px;
+}
+
